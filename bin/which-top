@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+var topl = require('../index');
+console.log(topl.getTopLevel(process.cwd()));

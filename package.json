@@ -1,0 +1,19 @@
+{
+  "name": "toplevel",
+  "description": "Toplevel lets you require node modules relative to the toplevelevel of your code",
+  "version": "0.0.1",
+  "author" : "Nick Dollarhide <nixmail427@gmail.com>",
+  "main": "index.js",
+  "repository" : {
+    "type": "git",
+    "url": "git@github.com:ndollar/toplevel.git"
+  },
+  "keywords" : ["node", "require", "require wrapper", "relative", "awesome"],
+  "engines": {
+    "node": "*"
+  },
+  "bin" : {
+    "which-top" : "./bin/which-top"
+  }
+}
+
