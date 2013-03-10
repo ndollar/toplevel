@@ -1,3 +1,9 @@
 #!/usr/bin/env node
 var topl = require('../index');
-console.log(topl.getTopLevel(process.cwd()));
+var path = process.argv[2] || process.cwd();
+try {
+  console.log(topl.getTopLevel(path));
+} catch (error) {
+  console.log(error);
+}
+
