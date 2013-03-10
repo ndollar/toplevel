@@ -1,7 +1,7 @@
 {
   "name": "toplevel",
   "description": "Toplevel lets you require node modules relative to the toplevelevel of your code",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author" : "Nick Dollarhide <nixmail427@gmail.com>",
   "main": "index.js",
   "repository" : {
